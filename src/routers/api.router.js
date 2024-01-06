@@ -8,7 +8,7 @@ const router = express.Router();
 router.get('/', apiController.getUsers);
 
 // Endpoint for creating a new record
-router.post('/new', apiController.addUser);
+router.post('/', apiController.addUser);
 
 // Endpoints for updating/deleting a record
 router.route('/:id').put(apiController.updateUser).delete(apiController.deleteUser);

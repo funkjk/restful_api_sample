@@ -23,7 +23,8 @@ const connectToMySQL = async () => {
 
         console.log('MySQL database connected!');
     } catch (err) {
-        console.log('MySQL database connection error!');
+        console.log('MySQL database connection error!',err);
+        console.log("connectionOptions", connectionOptions)
 
         process.exit(1);
     }

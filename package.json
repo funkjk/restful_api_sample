@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "cross-env NODE_ENV=production node src/index.js",
-        "dev": "cross-env NODE_ENV=development nodemon src/index.js"
+        "dev_docker": "cross-env WITH_DOCKER=true nodemon -L src/index.js",
+        "dev": "nodemon -L src/index.js"
     },
     "keywords": [],
     "author": "",
@@ -25,6 +26,7 @@
         "cross-env": "^7.0.3",
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
+        "mysql": "^2.18.1",
         "mysql2": "^2.3.3"
     }
 }

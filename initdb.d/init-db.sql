@@ -1,4 +1,3 @@
-CREATE DATABASE api_example;
 
 USE api_example;
 

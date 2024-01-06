@@ -39,7 +39,7 @@
 					"raw": "{\n    \"firstName\": \"\",\n    \"lastName\": \"\",\n    \"age\": 0\n}"
 				},
 				"url": {
-					"raw": "{{HOST}}:{{PORT}}/api/new",
+					"raw": "{{HOST}}:{{PORT}}/api/",
 					"host": [
 						"{{HOST}}"
 					],
