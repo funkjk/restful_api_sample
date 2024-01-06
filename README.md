@@ -3,6 +3,14 @@
 <h1 align="center">Node.js Express REST API MySQL JS Example</h1>
 
 <div align="center">
+  <div align="center">
+  This example based on following example.
+  <li>
+  <a href="https://github.com/almoggutin/Node-Express-REST-API-MySQL-JS-Example">almoggutin/Node-Express-REST-API-MySQL-JS-Example</a>
+  </li>
+  
+
+  </div>
   <p align="center">
     This REST API example is a basic backend application to test basic API functions with MySQL database.
   </p>
@@ -51,12 +59,6 @@ The point of this backend application is to test CRUD operations with MySQL data
 <!-- INSTALLATION INSTRUCTIONS -->
 
 ## How To Install
-
-**Git clone**
-
-```
-git clone https://github.com/almoggutin/Node-Express-REST-API-MySQL-JS-Example
-```
 
 **Instructions**
 
